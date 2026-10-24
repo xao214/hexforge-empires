@@ -25,3 +25,8 @@ button:hover{background:#3b4e6e}button:disabled{opacity:.4}
 .blist button{display:block;width:100%;text-align:left;margin:3px 0}
 .row{display:flex;gap:8px;flex-wrap:wrap;margin-top:10px}
 @media (max-width:700px){#mini{width:140px;height:91px}#bEnd{bottom:108px}#panel{max-width:calc(100% - 170px)}}
+
+#battle{position:fixed;inset:0;z-index:20;display:none;background:#000}
+#battle canvas{width:100%;height:100%;display:block}
+#battle .bbtns{position:absolute;right:12px;top:12px;display:flex;gap:6px;padding-top:env(safe-area-inset-top)}
+#cityview{display:block;width:min(820px,88vw);height:min(260px,32vh);border-radius:10px;border:1px solid #567;margin-bottom:8px;background:#7aa}
